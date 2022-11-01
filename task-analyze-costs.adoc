@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: task-analyze-costs.html 
+keywords: analyze costs, compute costs, projected costs, savings, cloud analyzer 
+summary: Nach der Anbindung Ihres Accounts können Sie Ihre Cloud-Computing-Kosten analysieren und so frühere, aktuelle und zukünftige Cloud-Kosten analysieren. 
+---
+= Analysieren Sie Ihre Computing-Kosten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Nach der Anbindung Ihres Accounts können Sie Ihre Cloud-Computing-Kosten analysieren und so frühere, aktuelle und zukünftige Cloud-Kosten analysieren.
+
+
+
+== Kostenanalyse anzeigen
+
+.Schritte
+. Klicken Sie Auf *Computing*.
+. Die Kostenanalyse bietet Einblick in Ihre Computing-Kosten.
+
+
+image:screenshot_compute_dashboard.gif["Ein Screenshot, der die Seite Kostenanalyse in BlueXP anzeigt. Diese Seite enthält die im folgenden Text beschriebenen Informationen."]
+
+Aktuelle Kosten:: Die Gesamtkosten für Ihre Workloads vom Beginn des aktuellen Monats bis zur Präsentation.
+Prognostizierte Kosten:: Die prognostizierten Kosten am Ende des Monats basierend auf einer Analyse Ihres Nutzungsmusters.
+Letzte Woche Verpasste Einsparungen:: Einsparungen, die in den letzten sieben Tagen durch Optimierung von Spot-Instanzen und Reservierungen erzielt werden könnten.
+Wichtigste Ausgaben für AWS Konten Effizienz:: Die Top 10 Accounts abhängig von der größten Menge an geschätzten zusätzlichen Einsparungen.
++
+--
+Jedem Account wird eine Effizienzbewertung zugewiesen, die auf aktuellen und zusätzlichen potentiellen Einsparungen basiert. Die geschätzten zusätzlichen Einsparungen zeigen, wie viel zusätzlich durch den Einsatz von Spot-Instanzen und reservierten Instanzen eingespart werden kann.
+
+Sie können folgende Maßnahmen ergreifen, um Ihre Konten weiter zu optimieren:
+
+* *Details anzeigen*: Sehen Sie sich Ihre Möglichkeiten zur Kostenoptimierung an, indem Sie zu Spot's Cloud Analyzer gehen.
+* *Verbinden*: Schließen Sie ein noch nicht verwaltetes Konto an. Sie werden zu dem Assistenten weitergeleitet, der das Konto verbindet.
+
+
+--
+Top AWS Accounts:: Dies ist ein Balkendiagramm mit den zehn wichtigsten Konten nach Kosten. Die Grafik basiert auf den letzten 30 Tagen der Ausgabenaktivität.
+
+
+https://help.spot.io/cloud-analyzer/cost-analysis/["Erfahren Sie mehr über die Seite „Kostenanalyse“ im Spot Cloud Analyzer"^].
+
+
+
+== Vollständige Analyse
+
+Weitere Analysen und Empfehlungen finden Sie im Cloud Analyzer.
+
+Klicken Sie jederzeit auf *vollständige Analyse*, um weitere Diagramme und Analysen, ausführliche Empfehlungen, eine Aufschlüsselung von Anwendungsfällen (Container, ElasticApps und Reservierungen) und mehr aufzurufen.
+
+Das folgende Beispiel zeigt Cloud Analyzer auf:
+
+image:screenshot_compute_dashboard_spot.gif["Ein Screenshot, der die Seite „Kostenanalyse“ in Spot's Cloud Analyzer anzeigt."]
+
+* https://spot.io/products/cloud-analyzer/["Auf der Produktseite für Cloud Analyzer erfahren Sie mehr über die Möglichkeiten dieser Technologie"^]
+* https://help.spot.io/cloud-analyzer/["Hilfe zur Verwendung von Cloud Analyzer erhalten Sie in der Dokumentation zu Spot"^]
+
